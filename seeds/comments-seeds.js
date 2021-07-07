@@ -10,13 +10,6 @@ const commentData = [
   {
     body: 'Fascinating',
 },
-  
-  {
-    category_name: 'Hats',
-  },
-  {
-    category_name: 'Shoes',
-  },
 ];
 
 const seedComments = () => Comments.bulkCreate(commentData);
